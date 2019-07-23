@@ -1,0 +1,10 @@
+{
+    "name": "com.freakshowstudio.markovwordlists",
+    "displayName": "Markov Word Lists",
+    "version": "1.0.0",
+    "unity": "2019.1",
+    "description": "Markov word list importer for Unity",
+    "keywords": ["markov", "word list", "procedural", "name generator"],
+    "category": "Scripting",
+    "dependencies": { }
+}
