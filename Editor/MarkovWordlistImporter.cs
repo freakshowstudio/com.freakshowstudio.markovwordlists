@@ -11,6 +11,9 @@ namespace FreakshowStudio.MarkovWordLists.Editor
     [ScriptedImporter(1, "markov")]
     public class MarkovWordlistImporter : ScriptedImporter
     {
+        #region Inspector Variables
+        #pragma warning disable 0649
+
         [SerializeField]
         private int _order = 1;
 
@@ -19,6 +22,9 @@ namespace FreakshowStudio.MarkovWordLists.Editor
 
         [SerializeField]
         private char _endCharacter = '.';
+
+        #endregion // Inspector Variables
+        #pragma warning restore 0649
 
         public override void OnImportAsset(AssetImportContext ctx)
         {

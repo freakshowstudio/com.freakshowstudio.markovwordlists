@@ -8,6 +8,9 @@ namespace FreakshowStudio.MarkovWordLists.Samples.RandomNameGeneration.Runtime
 {
     public class NameGenerator : MonoBehaviour
     {
+        #region Inspector Variables
+        #pragma warning disable 0649
+
         [SerializeField]
         private MarkovWordlist _wordlist;
 
@@ -16,6 +19,9 @@ namespace FreakshowStudio.MarkovWordLists.Samples.RandomNameGeneration.Runtime
 
         [SerializeField]
         private int _maxLength = 12;
+
+        #endregion // Inspector Variables
+        #pragma warning restore 0649
 
         private string _name = "";
 

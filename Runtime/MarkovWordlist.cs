@@ -29,6 +29,9 @@ namespace FreakshowStudio.MarkovWordLists.Runtime
             public double probability;
         };
 
+        #region Inspector Variables
+        #pragma warning disable 0649
+
         [SerializeField]
         private int _order;
 
@@ -40,6 +43,9 @@ namespace FreakshowStudio.MarkovWordLists.Runtime
 
         [SerializeField]
         private ChainElement[] _serializedChain;
+
+        #endregion // Inspector Variables
+        #pragma warning restore 0649
 
         private Dictionary<string, Dictionary<string, double>> _chain =
             new Dictionary<string, Dictionary<string, double>>();
