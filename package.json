@@ -6,5 +6,12 @@
     "description": "Markov word list importer for Unity",
     "keywords": ["markov", "word list", "procedural", "name generator"],
     "category": "Scripting",
-    "dependencies": { }
+    "dependencies": { },
+    "samples": [
+        {
+            "displayName": "Random Name Generation",
+            "description": "How to procedurally generate names from markov lists",
+            "path": "Samples~/RandomNameGeneration"
+        }
+    ]
 }
